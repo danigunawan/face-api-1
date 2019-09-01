@@ -19,6 +19,7 @@ function startVideo() {
         { video :{} },
         stream => video.srcObject = stream,    //stream method =whats coming from our web cam 
         err => console.error(err)
+
     )
 }
 
